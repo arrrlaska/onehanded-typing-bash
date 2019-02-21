@@ -7,7 +7,9 @@ This script is intended to facilitate single-handed typing for those with disabi
 It lets you use shift to flip the keyboard, as if viewed by a mirror.  It also means that everything you type has to be lower-case, and the shift key only works as a mirroring indicator, but hey, this is free, and those one-handed keyboards cost hundreds `^__^`
 
 ### Example
-If you want to write "hello world" using only the left hand, you would write GeSSW wWrSd
+If you want to write "hello world" using only the left hand, you would write `GeSSW wWrSd`
+
+For the right hand, you would write `hIllo OoUlK`
 
 The script doesn't allow for any editing or even backspace, but the good news is that the backspace character gets written out to the file. So what you can do is run:
 ```bash
