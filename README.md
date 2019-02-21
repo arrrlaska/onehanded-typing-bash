@@ -17,5 +17,5 @@ to process the backspace characters for you
 
 **NOTE** that the ^? characters above are not the caret and question mark, but a visual indicator of the delete symbol. You get this on the command line by pressing CTRL-v, then the delete key (without control)
 
-##Potential issues
+## Potential issues
 **Issue**: the read -N option requires a recent version of bash. It work under bash 5.0.0, but not under bash 3.x.x. YMMV
