@@ -17,5 +17,12 @@ to process the backspace characters for you
 
 **NOTE** that the ^? characters above are not the caret and question mark, but a visual indicator of the delete symbol. You get this on the command line by pressing CTRL-v, then the delete key (without control)
 
-## Potential issues
+### Usage
+`one-handed [file]`
+Specifying a filename to write to is optional. Note that the file will always be appended to, and not overwritten.
+
+If a filename isn't specified, then `mktemp` will be used to generate a random temp file in /tmp. In either case the filename used will be shown on the screen
+
+To exit the script, type zzz
+### Potential issues
 **Issue**: the read -N option requires a recent version of bash. It work under bash 5.0.0, but not under bash 3.x.x. YMMV
