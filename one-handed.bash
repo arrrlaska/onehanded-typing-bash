@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#LICENSE: Gnu GPL v3.0
+declare -r LICENSE="GPL v3.0"
+
 #this script is for single-handed typing
 # It lets you use shift to flip the keyboard, as if viewed by a mirror
 # It also means that everything you type has to be lower-case, and the
